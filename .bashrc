@@ -20,7 +20,11 @@ export EDITOR="/usr/bin/vim"
 alias py='python3'
 alias la='ls -a'
 alias qemu='qemu-system-x86_64'
-alias dog='curl dogs.sh'
+# git
+alias push='git push'
+alias pull='git pull'
+alias add='git add'
+
 starwars () {
 	echo "type ctrl+] then type quit to quit"
 	sleep 5
