@@ -12,6 +12,8 @@ then
 fi
 export PATH
 export EDITOR="/usr/bin/vim"
+# For CS50 online course
+export LD_LIBRARY_PATH=/usr/local/lib
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
