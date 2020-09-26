@@ -14,6 +14,7 @@ export PATH
 export EDITOR="/usr/bin/vim"
 # For CS50 online course
 export LD_LIBRARY_PATH=/usr/local/lib
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
@@ -26,11 +27,11 @@ alias qemu='qemu-system-x86_64'
 alias push='git push'
 alias pull='git pull'
 alias add='git add'
+# name puzzles
+alias unique_names='cut -d, -f1 puzzle_names.csv | uniq -d'
 
 starwars () {
 	echo "type ctrl+] then type quit to quit"
 	sleep 5
 	telnet towel.blinkenlights.nl
 }
-
-export PATH="$HOME/.cargo/bin:$PATH"
