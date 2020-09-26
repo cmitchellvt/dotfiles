@@ -28,7 +28,9 @@ alias push='git push'
 alias pull='git pull'
 alias add='git add'
 # name puzzles
-alias unique_names='cut -d, -f1 puzzle_names.csv | uniq -d'
+uniquenames () {
+	cut -d, -f1 $1 | uniq -d
+}
 
 starwars () {
 	echo "type ctrl+] then type quit to quit"
