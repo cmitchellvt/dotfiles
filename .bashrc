@@ -29,7 +29,7 @@ alias pull='git pull'
 alias add='git add'
 # name puzzles
 uniquenames () {
-	cut -d, -f1 $1 | uniq -d
+	sort $1 | cut -d, -f1 | uniq -d
 }
 
 starwars () {
