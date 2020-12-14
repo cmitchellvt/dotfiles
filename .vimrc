@@ -1,11 +1,3 @@
-"Plugins will be downloaded to specified directory
-call plug#begin('~/.vim/plugins')
-"Declare list of plugins
-Plug 'valloric/youcompleteme'
-Plug 'nathanaelkane/vim-indent-guides'
-" List ends here.  Plugins become visible to Vim after this call.
-call plug#end()
-
 " When started as "evim", evim.vim will already have done these settings, bail
 " out.
 if v:progname =~? "evim"
