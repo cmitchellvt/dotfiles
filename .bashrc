@@ -19,11 +19,8 @@ export EDITOR="/usr/bin/vim"
 # User specific aliases and functions
 alias py='python3'
 alias la='ls -a'
-alias qemu='qemu-system-x86_64'
-# git
-alias push='git push'
-alias pull='git pull'
-alias add='git add'
+alias compile='gcc -Wextra -Wall'
+alias compilexx='g++ -Wextra -Wall' 
 
 starwars () {
 	echo "type ctrl+] then type quit to quit"
