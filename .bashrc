@@ -12,6 +12,7 @@ then
 fi
 export PATH
 export EDITOR="/usr/bin/vim"
+PS1="\[\033[0;34m\][\u@\h \033[0m\W]$ "
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
