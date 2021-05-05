@@ -20,8 +20,8 @@ PS1="\[\033[0;34m\][\u@\h \033[0m\W]$ "
 # User specific aliases and functions
 alias py='python3'
 alias la='ls -a'
-alias compile='gcc -Wextra -Wall'
-alias compilexx='g++ -Wextra -Wall' 
+alias compile='clang -Wextra -Wall'
+alias compilexx='clang++ -Wextra -Wall' 
 
 starwars () {
 	echo "type ctrl+] then type quit to quit"
