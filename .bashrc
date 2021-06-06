@@ -23,6 +23,10 @@ alias la='ls -a'
 alias compile='clang -Wextra -Wall'
 alias compilexx='clang++ -Wextra -Wall' 
 
+cheat () {
+	curl cheat.sh/$1
+}
+
 starwars () {
 	echo "type ctrl+] then type quit to quit"
 	sleep 5
