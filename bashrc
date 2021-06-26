@@ -12,13 +12,13 @@ then
 fi
 export PATH
 export EDITOR="/usr/bin/vim"
-PS1="\[\033[0;34m\][\u@\h \033[0m\W]$ "
+PS1="\e[0;34m[\u@\h \W]$\e[m"
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-alias py='python3'
+alias py='python'
 alias la='ls -a'
 alias compile='clang -Wextra -Wall'
 alias compilexx='clang++ -Wextra -Wall' 
