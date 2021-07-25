@@ -23,6 +23,11 @@ alias la='ls -a'
 alias compile='clang -Wextra -Wall'
 alias compilexx='clang++ -Wextra -Wall' 
 
+wc() {
+	echo "newline	word	bytes"
+	/usr/bin/wc $1
+}
+
 cheat () {
 	curl cheat.sh/$1
 }
