@@ -20,6 +20,7 @@ PS1="\e[0;34m[\u@\h \W]$\e[m"
 # User specific aliases and functions
 alias py='python'
 alias la='ls -a'
+alias ll='ls -l'
 alias compile='clang -Wextra -Wall'
 alias compilexx='clang++ -Wextra -Wall' 
 
@@ -30,10 +31,4 @@ wc() {
 
 cheat () {
 	curl cheat.sh/$1
-}
-
-starwars () {
-	echo "type ctrl+] then type quit to quit"
-	sleep 5
-	telnet towel.blinkenlights.nl
 }
